@@ -1,6 +1,6 @@
 import {Link, useNavigate} from 'react-router-dom'
 import {useState} from 'react'
-import { set } from 'mongoose'
+
 
 export const SignUp = () => {
   const [formData, setFormData] = useState({})
